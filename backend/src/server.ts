@@ -8,6 +8,7 @@ import { auth } from './middleware/auth';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import { db } from './db/database';
+import mapRoutes from './routes/map';
 
 dotenv.config();
 
@@ -154,9 +155,21 @@ class GameServer {
             }
         });
 
+        // Map routes
+        this.app.use('/api/maps', mapRoutes);
+
         // Health check route
         this.app.get('/api/health', (req, res) => {
             res.json({ status: 'Server is running' });
+        });
+
+        // Error handling middleware
+        this.app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+            console.error('Global error handler:', err);
+            res.status(500).json({ 
+                message: 'Internal server error', 
+                error: process.env.NODE_ENV === 'development' ? err.message : undefined 
+            });
         });
     }
 
