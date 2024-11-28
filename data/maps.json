@@ -1,1 +1,2843 @@
-[]
+[
+  {
+    "name": "Default Map",
+    "width": 10,
+    "height": 10,
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 8,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 9,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "height": 0.958851077208406,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "height": 0.8414709848078965,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "height": 0.5180694479998514,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "height": 0.06782644201778519,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "height": -0.39902284250009795,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "height": -0.7681774187658145,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "height": -0.9492553717935763,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "height": -0.8979225033677954,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 8,
+        "height": -0.6267468899754772,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 9,
+        "height": -0.2021217793552102,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "height": 1.682941969615793,
+        "type": "mountain"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "height": 1.4769205252082576,
+        "type": "mountain"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "height": 0.9092974268256818,
+        "type": "hill"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "height": 0.11904660549975349,
+        "type": "hill"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "height": -0.7003509767480293,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "height": -1.3482782142936742,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "height": -1.66609992213361,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 7,
+        "height": -1.5760022617690534,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "height": -1.1000442827230057,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 9,
+        "height": -0.35475709788077203,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "height": 1.994989973208109,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "height": 1.7507684116335782,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "height": 1.0778976827081597,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "height": 0.1411200080598672,
+        "type": "hill"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "height": -0.8302087662938229,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "height": -1.5982734801158247,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "height": -1.9750251042691513,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "height": -1.8682217014888203,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 8,
+        "height": -1.3040124696743485,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 9,
+        "height": -0.4205355062587931,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "height": 1.8185948536513634,
+        "type": "mountain"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "height": 1.595967130708011,
+        "type": "mountain"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "height": 0.9825909928677639,
+        "type": "hill"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "height": 0.12864231091458314,
+        "type": "hill"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "height": -0.7568024953079283,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "height": -1.4569556562693,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "height": -1.8003952594710348,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "height": -1.7030353121744464,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "height": -1.1887129250246076,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 9,
+        "height": -0.383352156016141,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "height": 1.1969442882079129,
+        "type": "mountain"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "height": 1.0504174348855488,
+        "type": "mountain"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "height": 0.6467117589144346,
+        "type": "hill"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "height": 0.08466848949996825,
+        "type": "hill"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "height": -0.49810457906089406,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "height": -0.9589242746631383,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "height": -1.1849658641745948,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "height": -1.1208864830068224,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "height": -0.7823749985162388,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 9,
+        "height": -0.2523108281068926,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "height": 0.2822400161197344,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "height": 0.24768891641433663,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "height": 0.15249493151775345,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "height": 0.019964868938957374,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "height": -0.11745328985524196,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "height": -0.2261147869661889,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "height": -0.27941549819892586,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "height": -0.2643055505163875,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "height": -0.18448438608910742,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 9,
+        "height": -0.05949500982931557,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "height": -0.7015664553792397,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "height": -0.6156824872480611,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "height": -0.37905797356114057,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "height": -0.04962684783745677,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "height": 0.2919546610336625,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "height": 0.5620554866089706,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "height": 0.6945455266920185,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "height": 0.6569865987187891,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "height": 0.45857443817053584,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "height": 0.14788726181548525,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "height": -1.5136049906158564,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "height": -1.328313345354717,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "height": -0.8178042666032712,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "height": -0.1070681814664354,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "height": 0.6298819286267558,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "height": 1.2126149746918697,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "height": 1.4984575835266853,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "height": 1.4174255153789417,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 8,
+        "height": 0.9893582466233818,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 9,
+        "height": 0.31906157401928725,
+        "type": "hill"
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "height": -1.955060235330194,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "height": -1.7157267699710668,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "height": -1.0563235532600117,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "height": -0.13829549013905865,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "height": 0.8135921321917721,
+        "type": "hill"
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "height": 1.5662840255444708,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "height": 1.935494963378793,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "height": 1.8308292314312782,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 8,
+        "height": 1.2779126512276933,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 9,
+        "height": 0.41211848524175654,
+        "type": "hill"
+      }
+    ],
+    "createdAt": "2024-11-28T17:46:17.311Z",
+    "updatedAt": "2024-11-28T17:46:17.311Z",
+    "_id": "6748ac69a1c416bd4a3b025f"
+  },
+  {
+    "name": "Test Map",
+    "width": 10,
+    "height": 10,
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 8,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 9,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "height": 0.958851077208406,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "height": 0.8414709848078965,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "height": 0.5180694479998514,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "height": 0.06782644201778519,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "height": -0.39902284250009795,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "height": -0.7681774187658145,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "height": -0.9492553717935763,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "height": -0.8979225033677954,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 8,
+        "height": -0.6267468899754772,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 9,
+        "height": -0.2021217793552102,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "height": 1.682941969615793,
+        "type": "mountain"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "height": 1.4769205252082576,
+        "type": "mountain"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "height": 0.9092974268256818,
+        "type": "hill"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "height": 0.11904660549975349,
+        "type": "hill"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "height": -0.7003509767480293,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "height": -1.3482782142936742,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "height": -1.66609992213361,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 7,
+        "height": -1.5760022617690534,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "height": -1.1000442827230057,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 9,
+        "height": -0.35475709788077203,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "height": 1.994989973208109,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "height": 1.7507684116335782,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "height": 1.0778976827081597,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "height": 0.1411200080598672,
+        "type": "hill"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "height": -0.8302087662938229,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "height": -1.5982734801158247,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "height": -1.9750251042691513,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "height": -1.8682217014888203,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 8,
+        "height": -1.3040124696743485,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 9,
+        "height": -0.4205355062587931,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "height": 1.8185948536513634,
+        "type": "mountain"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "height": 1.595967130708011,
+        "type": "mountain"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "height": 0.9825909928677639,
+        "type": "hill"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "height": 0.12864231091458314,
+        "type": "hill"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "height": -0.7568024953079283,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "height": -1.4569556562693,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "height": -1.8003952594710348,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "height": -1.7030353121744464,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "height": -1.1887129250246076,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 9,
+        "height": -0.383352156016141,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "height": 1.1969442882079129,
+        "type": "mountain"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "height": 1.0504174348855488,
+        "type": "mountain"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "height": 0.6467117589144346,
+        "type": "hill"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "height": 0.08466848949996825,
+        "type": "hill"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "height": -0.49810457906089406,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "height": -0.9589242746631383,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "height": -1.1849658641745948,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "height": -1.1208864830068224,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "height": -0.7823749985162388,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 9,
+        "height": -0.2523108281068926,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "height": 0.2822400161197344,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "height": 0.24768891641433663,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "height": 0.15249493151775345,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "height": 0.019964868938957374,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "height": -0.11745328985524196,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "height": -0.2261147869661889,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "height": -0.27941549819892586,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "height": -0.2643055505163875,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "height": -0.18448438608910742,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 9,
+        "height": -0.05949500982931557,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "height": -0.7015664553792397,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "height": -0.6156824872480611,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "height": -0.37905797356114057,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "height": -0.04962684783745677,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "height": 0.2919546610336625,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "height": 0.5620554866089706,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "height": 0.6945455266920185,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "height": 0.6569865987187891,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "height": 0.45857443817053584,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "height": 0.14788726181548525,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "height": -1.5136049906158564,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "height": -1.328313345354717,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "height": -0.8178042666032712,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "height": -0.1070681814664354,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "height": 0.6298819286267558,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "height": 1.2126149746918697,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "height": 1.4984575835266853,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "height": 1.4174255153789417,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 8,
+        "height": 0.9893582466233818,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 9,
+        "height": 0.31906157401928725,
+        "type": "hill"
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "height": -1.955060235330194,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "height": -1.7157267699710668,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "height": -1.0563235532600117,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "height": -0.13829549013905865,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "height": 0.8135921321917721,
+        "type": "hill"
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "height": 1.5662840255444708,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "height": 1.935494963378793,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "height": 1.8308292314312782,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 8,
+        "height": 1.2779126512276933,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 9,
+        "height": 0.41211848524175654,
+        "type": "hill"
+      }
+    ],
+    "createdAt": "2024-11-28T17:51:20.917Z",
+    "updatedAt": "2024-11-28T17:51:20.917Z",
+    "_id": "6748ad98cee168216f2edc14"
+  },
+  {
+    "name": "Test Map",
+    "width": 10,
+    "height": 10,
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 8,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 0,
+        "y": 9,
+        "height": 0,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "height": 0.958851077208406,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "height": 0.8414709848078965,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "height": 0.5180694479998514,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "height": 0.06782644201778519,
+        "type": "hill"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "height": -0.39902284250009795,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "height": -0.7681774187658145,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "height": -0.9492553717935763,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "height": -0.8979225033677954,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 8,
+        "height": -0.6267468899754772,
+        "type": "plain"
+      },
+      {
+        "x": 1,
+        "y": 9,
+        "height": -0.2021217793552102,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "height": 1.682941969615793,
+        "type": "mountain"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "height": 1.4769205252082576,
+        "type": "mountain"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "height": 0.9092974268256818,
+        "type": "hill"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "height": 0.11904660549975349,
+        "type": "hill"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "height": -0.7003509767480293,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "height": -1.3482782142936742,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "height": -1.66609992213361,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 7,
+        "height": -1.5760022617690534,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "height": -1.1000442827230057,
+        "type": "plain"
+      },
+      {
+        "x": 2,
+        "y": 9,
+        "height": -0.35475709788077203,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "height": 1.994989973208109,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "height": 1.7507684116335782,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "height": 1.0778976827081597,
+        "type": "mountain"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "height": 0.1411200080598672,
+        "type": "hill"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "height": -0.8302087662938229,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "height": -1.5982734801158247,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "height": -1.9750251042691513,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "height": -1.8682217014888203,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 8,
+        "height": -1.3040124696743485,
+        "type": "plain"
+      },
+      {
+        "x": 3,
+        "y": 9,
+        "height": -0.4205355062587931,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "height": 1.8185948536513634,
+        "type": "mountain"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "height": 1.595967130708011,
+        "type": "mountain"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "height": 0.9825909928677639,
+        "type": "hill"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "height": 0.12864231091458314,
+        "type": "hill"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "height": -0.7568024953079283,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "height": -1.4569556562693,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "height": -1.8003952594710348,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "height": -1.7030353121744464,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "height": -1.1887129250246076,
+        "type": "plain"
+      },
+      {
+        "x": 4,
+        "y": 9,
+        "height": -0.383352156016141,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "height": 1.1969442882079129,
+        "type": "mountain"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "height": 1.0504174348855488,
+        "type": "mountain"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "height": 0.6467117589144346,
+        "type": "hill"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "height": 0.08466848949996825,
+        "type": "hill"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "height": -0.49810457906089406,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "height": -0.9589242746631383,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "height": -1.1849658641745948,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "height": -1.1208864830068224,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "height": -0.7823749985162388,
+        "type": "plain"
+      },
+      {
+        "x": 5,
+        "y": 9,
+        "height": -0.2523108281068926,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "height": 0.2822400161197344,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "height": 0.24768891641433663,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "height": 0.15249493151775345,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "height": 0.019964868938957374,
+        "type": "hill"
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "height": -0.11745328985524196,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "height": -0.2261147869661889,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "height": -0.27941549819892586,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "height": -0.2643055505163875,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "height": -0.18448438608910742,
+        "type": "plain"
+      },
+      {
+        "x": 6,
+        "y": 9,
+        "height": -0.05949500982931557,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "height": -0.7015664553792397,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "height": -0.6156824872480611,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "height": -0.37905797356114057,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "height": -0.04962684783745677,
+        "type": "plain"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "height": 0.2919546610336625,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "height": 0.5620554866089706,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "height": 0.6945455266920185,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "height": 0.6569865987187891,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "height": 0.45857443817053584,
+        "type": "hill"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "height": 0.14788726181548525,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "height": -1.5136049906158564,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "height": -1.328313345354717,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "height": -0.8178042666032712,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "height": -0.1070681814664354,
+        "type": "plain"
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "height": 0.6298819286267558,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "height": 1.2126149746918697,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "height": 1.4984575835266853,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "height": 1.4174255153789417,
+        "type": "mountain"
+      },
+      {
+        "x": 8,
+        "y": 8,
+        "height": 0.9893582466233818,
+        "type": "hill"
+      },
+      {
+        "x": 8,
+        "y": 9,
+        "height": 0.31906157401928725,
+        "type": "hill"
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "height": -1.955060235330194,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "height": -1.7157267699710668,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "height": -1.0563235532600117,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "height": -0.13829549013905865,
+        "type": "plain"
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "height": 0.8135921321917721,
+        "type": "hill"
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "height": 1.5662840255444708,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "height": 1.935494963378793,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "height": 1.8308292314312782,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 8,
+        "height": 1.2779126512276933,
+        "type": "mountain"
+      },
+      {
+        "x": 9,
+        "y": 9,
+        "height": 0.41211848524175654,
+        "type": "hill"
+      }
+    ],
+    "createdAt": "2024-11-28T17:51:43.517Z",
+    "updatedAt": "2024-11-28T17:51:43.517Z",
+    "_id": "6748adafcee168216f2edc15"
+  },
+  {
+    "name": "Test Map",
+    "width": 10,
+    "height": 10,
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 8,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 0,
+        "y": 9,
+        "height": 0,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "height": 0.958851077208406,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "height": 0.8414709848078965,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "height": 0.5180694479998514,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "height": 0.06782644201778519,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "height": -0.39902284250009795,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "height": -0.7681774187658145,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "height": -0.9492553717935763,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "height": -0.8979225033677954,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 8,
+        "height": -0.6267468899754772,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 1,
+        "y": 9,
+        "height": -0.2021217793552102,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "height": 1.682941969615793,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "height": 1.4769205252082576,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "height": 0.9092974268256818,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "height": 0.11904660549975349,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "height": -0.7003509767480293,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "height": -1.3482782142936742,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "height": -1.66609992213361,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 7,
+        "height": -1.5760022617690534,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "height": -1.1000442827230057,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 2,
+        "y": 9,
+        "height": -0.35475709788077203,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "height": 1.994989973208109,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "height": 1.7507684116335782,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "height": 1.0778976827081597,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "height": 0.1411200080598672,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "height": -0.8302087662938229,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "height": -1.5982734801158247,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "height": -1.9750251042691513,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "height": -1.8682217014888203,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 8,
+        "height": -1.3040124696743485,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 3,
+        "y": 9,
+        "height": -0.4205355062587931,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "height": 1.8185948536513634,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "height": 1.595967130708011,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "height": 0.9825909928677639,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "height": 0.12864231091458314,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "height": -0.7568024953079283,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "height": -1.4569556562693,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "height": -1.8003952594710348,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "height": -1.7030353121744464,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "height": -1.1887129250246076,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 4,
+        "y": 9,
+        "height": -0.383352156016141,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "height": 1.1969442882079129,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "height": 1.0504174348855488,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "height": 0.6467117589144346,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "height": 0.08466848949996825,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "height": -0.49810457906089406,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "height": -0.9589242746631383,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "height": -1.1849658641745948,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "height": -1.1208864830068224,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 8,
+        "height": -0.7823749985162388,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 5,
+        "y": 9,
+        "height": -0.2523108281068926,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "height": 0.2822400161197344,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "height": 0.24768891641433663,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "height": 0.15249493151775345,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "height": 0.019964868938957374,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "height": -0.11745328985524196,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "height": -0.2261147869661889,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "height": -0.27941549819892586,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "height": -0.2643055505163875,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 8,
+        "height": -0.18448438608910742,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 6,
+        "y": 9,
+        "height": -0.05949500982931557,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "height": -0.7015664553792397,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "height": -0.6156824872480611,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "height": -0.37905797356114057,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "height": -0.04962684783745677,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "height": 0.2919546610336625,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "height": 0.5620554866089706,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "height": 0.6945455266920185,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "height": 0.6569865987187891,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "height": 0.45857443817053584,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "height": 0.14788726181548525,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "height": -1.5136049906158564,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "height": -1.328313345354717,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "height": -0.8178042666032712,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "height": -0.1070681814664354,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "height": 0.6298819286267558,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "height": 1.2126149746918697,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "height": 1.4984575835266853,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "height": 1.4174255153789417,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 8,
+        "height": 0.9893582466233818,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 8,
+        "y": 9,
+        "height": 0.31906157401928725,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "height": -1.955060235330194,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "height": -1.7157267699710668,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "height": -1.0563235532600117,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "height": -0.13829549013905865,
+        "centerType": "plain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "height": 0.8135921321917721,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "height": 1.5662840255444708,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "height": 1.935494963378793,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "height": 1.8308292314312782,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 8,
+        "height": 1.2779126512276933,
+        "centerType": "mountain",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      },
+      {
+        "x": 9,
+        "y": 9,
+        "height": 0.41211848524175654,
+        "centerType": "hill",
+        "cornerType_a": "plain",
+        "cornerType_b": "plain",
+        "cornerType_c": "plain",
+        "cornerType_d": "plain"
+      }
+    ],
+    "zoom": 1,
+    "createdAt": "2024-11-28T18:07:10.946Z",
+    "updatedAt": "2024-11-28T18:07:10.946Z",
+    "_id": "6748b14e8d551ac8133b8200"
+  }
+]

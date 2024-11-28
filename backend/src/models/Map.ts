@@ -5,7 +5,19 @@ export interface MapTile {
     x: number;
     y: number;
     height: number;
-    type: string;
+    centerType: string;         // ground type for the center
+    cornerType_a: string;       // ground type for the first corner UP-LEFT or UP / DOWN
+    cornerType_b: string;       // ground type for the second corner UP-RIGHT or UP-RIGHT / DOWN-RIGHT
+    cornerType_c: string;       // ground type for the third corner DOWN-RIGHT or UP-LEFT / DOWN-LEFT
+    cornerType_d: string;       // ground type for the fourth corner DOWN-LEFT or  --- not used on triangles ---
+    properties?: Record<string, any>;
+}
+
+export interface MapPoint {
+    x: number;
+    y: number;
+    height: number;
+    type: string; //corner, center-up, center-down
     properties?: Record<string, any>;
 }
 
@@ -15,6 +27,7 @@ export interface GameMap {
     width: number;
     height: number;
     tiles: MapTile[];
+    zoom: number;
     createdAt: Date;
     updatedAt: Date;
 }
@@ -62,7 +75,7 @@ export class MapService {
             map.updatedAt = new Date();
 
             // Save the updated map
-            await this.collection.updateOne({ _id: map._id }, { $set: map });
+            await this.collection.updateOne({ _id: map._id }, map);
             return true;
         } catch (error) {
             console.error('Error in updateMapTile:', error);
@@ -77,7 +90,8 @@ export class MapService {
                 name: 'Test Map',
                 width: 10,
                 height: 10,
-                tiles: []
+                tiles: [],
+                zoom: 1 // Example zoom level
             };
 
             // Generate a simple heightmap
@@ -88,7 +102,11 @@ export class MapService {
                         x,
                         y,
                         height,
-                        type: height > 1 ? 'mountain' : height > 0 ? 'hill' : 'plain'
+                        centerType: height > 1 ? 'mountain' : height > 0 ? 'hill' : 'plain',
+                        cornerType_a: 'plain',
+                        cornerType_b: 'plain',
+                        cornerType_c: 'plain',
+                        cornerType_d: 'plain'
                     });
                 }
             }

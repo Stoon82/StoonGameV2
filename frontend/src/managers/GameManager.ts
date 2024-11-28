@@ -4,6 +4,8 @@ import { MapRenderer } from '../map/MapRenderer';
 import { Manager } from './Manager';
 import { InputManager } from './InputManager';
 import axios from 'axios';
+import { StoonMap } from '../shared/StoonMap';
+import { MapChunk, Point } from '../shared/MapChunk';
 
 export class GameManager extends Manager {
     private static _instance: GameManager;
@@ -20,6 +22,9 @@ export class GameManager extends Manager {
     private raycaster: THREE.Raycaster;
     private mousePosition: THREE.Vector2;
 
+    // Example map properties
+    private stoonMap: StoonMap;
+
     private constructor() {
         super();
         this.raycaster = new THREE.Raycaster();
@@ -31,6 +36,55 @@ export class GameManager extends Manager {
             GameManager._instance = new GameManager();
         }
         return GameManager._instance;
+    }
+
+    private createExampleMap() {
+        this.stoonMap = new StoonMap();
+        const cornerPoints: Point[] = [
+            { worldPosition: { x: -2, y: 0, z: -2 }, gridCoordinates: { x: 0, y: 0 }, groundTypeIndex: 1 },
+            { worldPosition: { x: 2, y: 0, z: -2 }, gridCoordinates: { x: 1, y: 0 }, groundTypeIndex: 1 },
+            { worldPosition: { x: 2, y: 0, z: 2 }, gridCoordinates: { x: 1, y: 1 }, groundTypeIndex: 1 },
+            { worldPosition: { x: -2, y: 0, z: 2 }, gridCoordinates: { x: 0, y: 1 }, groundTypeIndex: 1 }
+        ];
+
+        const centerPoints: Point[] = [
+            { worldPosition: { x: 0, y: 0.5, z: 0 }, gridCoordinates: { x: 0.5, y: 0.5 }, groundTypeIndex: 1 }
+        ];
+
+        const chunk = new MapChunk();
+        cornerPoints.forEach(point => chunk.addCornerPoint(point));
+        centerPoints.forEach(point => chunk.addCenterPoint(point));
+
+        this.stoonMap.addChunk(chunk);
+    }
+
+    private renderExampleMap() {
+        const { corners, centers } = this.stoonMap.getPoints();
+
+        corners.forEach((corner, index) => {
+            const center = centers[index % centers.length];
+            const nextCorner = corners[(index + 1) % corners.length];
+
+            // Create triangle geometry
+            const geometry = new THREE.BufferGeometry();
+            const vertices = new Float32Array([
+                center.worldPosition.x, center.worldPosition.y, center.worldPosition.z,
+                corner.worldPosition.x, corner.worldPosition.y, corner.worldPosition.z,
+                nextCorner.worldPosition.x, nextCorner.worldPosition.y, nextCorner.worldPosition.z,
+            ]);
+
+            geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
+            geometry.computeVertexNormals();
+
+            const material = new THREE.MeshStandardMaterial({ 
+                color: 0x00ff00, 
+                side: THREE.DoubleSide,
+                wireframe: true 
+            });
+            
+            const mesh = new THREE.Mesh(geometry, material);
+            this.scene.add(mesh);
+        });
     }
 
     public init(): void {
@@ -66,6 +120,10 @@ export class GameManager extends Manager {
 
         // Create follow sphere
         this.createFollowSphere();
+
+        // Create and render example map
+        this.createExampleMap();
+        this.renderExampleMap();
 
         // Setup mouse move handler
         InputManager.getInstance().addMouseListener('mousemove', this.handleMouseMove.bind(this));

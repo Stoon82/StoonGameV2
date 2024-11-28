@@ -9,6 +9,8 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import { db } from './db/database';
 import mapRoutes from './routes/map';
+import fs from 'fs';
+import { MapService, GameMap, MapTile } from './models/Map';
 
 dotenv.config();
 
@@ -43,9 +45,55 @@ class GameServer {
         try {
             await db.connect();
             console.log('Database ready');
+
+            // Check for 'Default Map'
+            const mapsPath = path.join(__dirname, '../../data/maps.json');
+            const mapsData = JSON.parse(fs.readFileSync(mapsPath, 'utf-8'));
+
+            const defaultMap = mapsData.find((map: any) => map.name === 'Default Map');
+            if (!defaultMap) {
+                console.log('Default Map not found, creating...');
+                const newMap = await this.createDefaultMap();
+                mapsData.push(newMap);
+                fs.writeFileSync(mapsPath, JSON.stringify(mapsData, null, 2));
+                console.log('Default Map created and saved.');
+            } else {
+                console.log('Default Map already exists.');
+            }
         } catch (error) {
             console.error('Database connection error:', error);
         }
+    }
+
+    private async createDefaultMap() {
+        // Logic to create a default map
+        const mapService = new MapService();
+        const defaultMapData: Omit<GameMap, '_id' | 'createdAt' | 'updatedAt'> = {
+            name: 'Default Map',
+            width: 10,
+            height: 10,
+            tiles: [] as MapTile[],
+            zoom: 1 // Example zoom level
+        };
+
+        // Generate a simple heightmap
+        for (let x = 0; x < defaultMapData.width; x++) {
+            for (let y = 0; y < defaultMapData.height; y++) {
+                const height = Math.sin(x * 0.5) * Math.cos(y * 0.5) * 2;
+                defaultMapData.tiles.push({
+                    x,
+                    y,
+                    height,
+                    centerType: height > 1 ? 'mountain' : height > 0 ? 'hill' : 'plain',
+                    cornerType_a: 'plain',
+                    cornerType_b: 'plain',
+                    cornerType_c: 'plain',
+                    cornerType_d: 'plain'
+                });
+            }
+        }
+
+        return mapService.createMap(defaultMapData);
     }
 
     private setupMiddleware() {

@@ -5,6 +5,7 @@ import { ObjectId } from 'mongodb';
 interface Collection<T> {
     findOne(query: Partial<T>): Promise<T | null>;
     insertOne(doc: Omit<T, '_id'>): Promise<{ insertedId: ObjectId }>;
+    updateOne(query: Partial<T>, update: Partial<T>): Promise<{ matchedCount: number; modifiedCount: number }>;
 }
 
 interface BaseDocument {
@@ -76,6 +77,17 @@ class JsonCollection<T extends BaseDocument> implements Collection<T> {
         this.data.push(newDoc);
         this.saveData();
         return { insertedId: _id };
+    }
+
+    async updateOne(query: Partial<T>, update: Partial<T>): Promise<{ matchedCount: number; modifiedCount: number }> {
+        const index = this.data.findIndex(item => Object.keys(query).every(key => item[key] === query[key]));
+        if (index === -1) {
+            return { matchedCount: 0, modifiedCount: 0 };
+        }
+
+        this.data[index] = { ...this.data[index], ...update };
+        this.saveData();
+        return { matchedCount: 1, modifiedCount: 1 };
     }
 }
 

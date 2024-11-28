@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import axios from 'axios';
 
 export class StoonGame {
     private scene: THREE.Scene;
@@ -32,6 +33,9 @@ export class StoonGame {
         // Create initial map prototype
         this.createMapPrototype();
 
+        // Fetch and render map data around player's position
+        this.fetchMapData();
+
         // Start render loop
         this.animate();
 
@@ -57,6 +61,34 @@ export class StoonGame {
             );
             this.scene.add(cube);
         }
+    }
+
+    private async fetchMapData() {
+        try {
+            const playerPosition = { x: 0, y: 0 }; // Example player position
+            const viewDistance = 5; // Example view distance
+            const mapId = 'default-map-id'; // Replace with actual map ID
+
+            const response = await axios.post(`/api/maps/${mapId}/data`, {
+                position: playerPosition,
+                viewDistance
+            });
+
+            const tiles = response.data.tiles;
+            this.renderMapTiles(tiles);
+        } catch (error) {
+            console.error('Error fetching map data:', error);
+        }
+    }
+
+    private renderMapTiles(tiles: any[]) {
+        tiles.forEach(tile => {
+            const geometry = new THREE.BoxGeometry(1, 1, 1);
+            const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+            const cube = new THREE.Mesh(geometry, material);
+            cube.position.set(tile.x, tile.height / 2, tile.y);
+            this.scene.add(cube);
+        });
     }
 
     private animate() {
